@@ -4,7 +4,7 @@ Release:        %mkrel 1
 Epoch:          0
 Summary:        Filesystem which mounts the memcache server
 License:        GPL
-Group:          System/Kernel
+Group:          System/Kernel and hardware
 URL:            http://memcachefs.sourceforge.net/
 Source0:        http://internap.dl.sourceforge.net/sourceforge/memcachefs/memcachefs-%{version}.tar.gz
 Requires:       dkms-fuse
