@@ -11,6 +11,7 @@ Requires:       dkms-fuse
 Requires:       fuse
 BuildRequires:  fuse-devel
 BuildRequires:  memcache-devel
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 memcachefs is FUSE-based filesystem which mounts the memcache
