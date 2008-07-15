@@ -1,13 +1,13 @@
 Name:           memcachefs
 Version:        0.5
-Release:        %mkrel 1
+Release:        %mkrel 2
 Epoch:          0
 Summary:        Filesystem which mounts the memcache server
-License:        GPL
+License:        GPLv2+
 Group:          System/Kernel and hardware
 URL:            http://memcachefs.sourceforge.net/
-Source0:        http://internap.dl.sourceforge.net/sourceforge/memcachefs/memcachefs-%{version}.tar.gz
-Requires:       dkms-fuse
+Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Requires:       kmod(fuse)
 Requires:       fuse
 BuildRequires:  fuse-devel
 BuildRequires:  memcache-devel
@@ -34,6 +34,6 @@ were regular files.
 
 %files 
 %defattr(0644,root,root,0755)
-%doc AUTHORS COPYING ChangeLog INSTALL NEWS README
+%doc AUTHORS ChangeLog INSTALL NEWS README
 %attr(-,root,root) %{_bindir}/memcachefs
 %{_mandir}/man1/memcachefs.1*
