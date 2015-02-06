@@ -1,6 +1,6 @@
 Name:           memcachefs
 Version:        0.5
-Release:        %mkrel 4
+Release:        5
 Epoch:          0
 Summary:        Filesystem which mounts the memcache server
 License:        GPLv2+
