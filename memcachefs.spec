@@ -5,7 +5,7 @@ Epoch:          0
 Summary:        Filesystem which mounts the memcache server
 License:        GPLv2+
 Group:          System/Kernel and hardware
-URL:            http://memcachefs.sourceforge.net/
+URL:            https://memcachefs.sourceforge.net/
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 Requires:       kmod(fuse)
 Requires:       fuse
