@@ -9,6 +9,7 @@ URL:            https://memcachefs.sourceforge.net/
 Source0:        http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 Requires:       kmod(fuse)
 Requires:       fuse
+BuildRequires:	make
 BuildRequires:  fuse-devel
 BuildRequires:  memcache-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
